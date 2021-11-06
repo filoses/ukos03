@@ -3,12 +3,12 @@
 
 use namespace std;
 
-int a,b,c;
+int a,b,c,d;
 
 int main() {
-    cout << "Podaj 3 liczby" << endl;
-    cin >> a, b, c;
-    cout << a+b+c/3 << endl;
+    cout << "Podaj 4 liczby" << endl;
+    cin >> a, b, c, d;
+    cout << a+b+c+d/3 << endl;
     return 0;
 }
 
