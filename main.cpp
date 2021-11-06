@@ -6,9 +6,9 @@ use namespace std;
 int a,b,c,d;
 
 int main() {
-    cout << "Podaj 4 liczby" << endl;
-    cin >> a, b, c, d;
-    cout << a+b+c+d/3 << endl;
+    cout << "Podaj 5 liczby" << endl;
+    cin >> a, b, c, d, e;
+    cout << a+b+c+d+e/5 << endl;
     return 0;
 }
 
